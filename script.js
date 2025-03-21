@@ -1,11 +1,13 @@
 document.addEventListener('DOMContentLoaded', function() {
-    // Gerar QR Code
-    const qr = qrcode(0, 'M');
-    qr.addData('https://cft-metodologias.vercel.app');  // Coloque sua URL aqui
-    qr.make();
-    
-    // Inserir o QR code no elemento
-    document.getElementById('qrcode').innerHTML = qr.createImgTag(6);
+    // Gerar QR Code com o link específico
+    const qrcode = new QRCode(document.getElementById("qrcode"), {
+        text: "https://chatgpt.com/share/67ddb402-286c-8000-a773-f175d1d20ed1",
+        width: 250,
+        height: 250,
+        colorDark : "#000000",
+        colorLight : "#ffffff",
+        correctLevel : QRCode.CorrectLevel.H
+    });
     
     // Animação de entrada para as seções
     const sections = document.querySelectorAll('section');
