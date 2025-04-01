@@ -16,6 +16,12 @@
                 <p>DISCIPLINA: Componente de Formação Tecnológica</p>
                 <p>UFCD Nº0806: Princípios Metodológicos de Programação</p>
                 <p>Carga horária: 25 Horas</p>
+<<<<<<< HEAD
+=======
+                <h2 style="color: #003366; font-size: 36px; text-align: center; font-weight: bold;">
+                    Aldir Pedro
+                </h2>  
+>>>>>>> 7600576 (Qr code)
                 <p>Professor: Jhonny Mosquera</p>
                 <p>Ano Letivo: 2024/2025</p>
             </div>
@@ -24,9 +30,16 @@
         <main>
             <section id="intro">
                 <h2>Introdução</h2>
+<<<<<<< HEAD
                 <p>Este trabalho aborda os principais paradigmas e metodologias de programação.</p>
             </section>
 
+=======
+                <p>Este trabalho aborda os principais paradigmas e metodologias de programação. A programação é um processo essencial no desenvolvimento de software, permitindo a criação de aplicações eficientes e bem estruturadas. Existem diversas abordagens metodológicas que auxiliam no desenvolvimento, cada uma com suas vantagens e aplicações específicas.</p>
+                <p>As metodologias de programação podem ser divididas em diferentes paradigmas, como Programação Estruturada, Programação Orientada a Objetos e Programação Orientada a Dados. Além disso, o desenvolvimento ágil surgiu como uma alternativa dinâmica para otimizar o processo de produção de software, permitindo maior flexibilidade e colaboração entre equipes.</p>
+                <p>Compreender essas metodologias é fundamental para escrever códigos mais organizados, reutilizáveis e de fácil manutenção, tornando os sistemas mais robustos e escaláveis.</p>
+            </section>
+>>>>>>> 7600576 (Qr code)
             <section id="agile">
                 <h2>1. Programação Ágil</h2>
                 <div class="content">
@@ -56,12 +69,60 @@
             </section>
         </main>
 
+<<<<<<< HEAD
+=======
+
+            <section id="use-case">
+                <h2>5. Caso de Uso: Sistema de Gestão de Funcionários</h2>
+                <div class="content">
+                    <p>Imagine que uma empresa deseja criar um sistema para gerenciar seus funcionários, permitindo cadastrar novos empregados, atualizar informações e listar todos os funcionários registrados. A abordagem de Programação Orientada a Objetos pode ser usada para estruturar esse sistema eficientemente.</p>
+                    <h3>Exemplo em Python</h3>
+                    <pre><code>
+class Funcionario:
+    def __init__(self, nome, cargo, salario):
+        self.nome = nome
+        self.cargo = cargo
+        self.salario = salario
+
+    def detalhes(self):
+        return f"Funcionário: {self.nome} | Cargo: {self.cargo} | Salário: R${self.salario:.2f}"
+
+class Empresa:
+    def __init__(self):
+        self.funcionarios = []
+
+    def adicionar_funcionario(self, funcionario):
+        self.funcionarios.append(funcionario)
+
+    def listar_funcionarios(self):
+        for func in self.funcionarios:
+            print(func.detalhes())
+
+# Criando objetos e testando o sistema
+empresa = Empresa()
+empresa.adicionar_funcionario(Funcionario("Carlos Silva", "Desenvolvedor", 5000))
+empresa.adicionar_funcionario(Funcionario("Ana Souza", "Gerente", 8000))
+
+print("Lista de Funcionários:")
+empresa.listar_funcionarios()
+                    </code></pre>
+                    <p>Neste caso, a classe <code>Funcionario</code> representa cada empregado, enquanto a classe <code>Empresa</code> gerencia os funcionários cadastrados. Essa abordagem permite melhor organização e manutenção do código.</p>
+                </div>
+            </section>
+        </main>
+
+>>>>>>> 7600576 (Qr code)
         <footer>
             <div class="bibliography">
                 <h2>Bibliografia</h2>
                 <ul>
+<<<<<<< HEAD
                     <li><a href="https://pt.wikipedia.org/wiki/Programa%C3%A7%C3%A3o_estruturada" target="_blank">Programação Estruturada - Wikipédia</a></li>
                     <li><a href="https://pt.wikipedia.org/wiki/Programa%C3%A7%C3%A3o_orientada_a_objetos" target="_blank">Programação Orientada a Objetos - Wikipédia</a></li>
+=======
+                    <li><a href="https://www.dio.me/articles/artigo-de-revisao-caracteristicas-da-programacao-estruturada-e-desenvolvimento-de-algoritmos-atraves-de-divisao-modular-e-refinamentos-sucessivos" target="_blank">Programação Estruturada - DIO.ME</a></li>
+                    <li><a href="https://www.devmedia.com.br/programacao-orientada-a-objetos-e-programacao-estruturada/32813" target="_blank">Programação Orientada a Objetos -DevMedia</a></li>
+>>>>>>> 7600576 (Qr code)
                     <li><a href="https://www.geeksforgeeks.org/oops-object-oriented-design/?ref=gcse_outind" target="_blank">POO - GeeksforGeeks</a></li>
                     <li><a href="https://scrum-nine.vercel.app/" target="_blank">Scrum - Metodologia Ágil</a></li>
                 </ul>
@@ -70,4 +131,8 @@
     </div>
     <script src="script.js"></script>
 </body>
+<<<<<<< HEAD
 </html>
+=======
+</html>
+>>>>>>> 7600576 (Qr code)
